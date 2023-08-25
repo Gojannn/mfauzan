@@ -1,0 +1,16 @@
+creacreate table katalog(
+    -> id int(10) primary key,
+    -> ISBN int(10),
+    -> Judul varchar(255),
+    -> pengarang varchar(255),
+    -> penerbit varchar(255),
+    -> tahun_terbit int(4),
+    -> stock int(8),
+    -> harga_jual int(7),
+    -> harga_beli int(7),
+    -> id_supplier int(10),
+    -> foreign key(id_supplier) references supplier(id));
+
+text niki sampun kulo edit
+
+perubahan ke3 
